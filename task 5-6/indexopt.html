@@ -7,13 +7,13 @@
 
     <style>
       #square {
-        width: 200px;
-        height: 200px;
-        border: 2px solid black;
+        width: 300px;
+        height: 300px;
+        border: 5px solid rgb(0, 0, 0);
       }
 
       img {
-        width: 600px;
+        width: 500px;
         height: 500px;
       }
     </style>
@@ -26,10 +26,10 @@
       <script>
         let square = document.getElementById("square");
 
-        square.style.backgroundColor = "blue";
+        square.style.backgroundColor = "red";
 
         square.addEventListener("click", function () {
-          square.style.backgroundColor = "red";
+          square.style.backgroundColor = "blue";
         });
       </script>
     </div>
@@ -40,7 +40,7 @@
       <div>
         <select id="carsSelect">
           <option value="selcet">Select</option>
-          <option value="mercedes">Mercedes</option>
+          <option value="gtr">gtr</option>
           <option value="bmw">BMW</option>
           <option value="toyota">Toyota</option>
         </select>
@@ -62,15 +62,15 @@
           if (selectElement.value == "selcet") {
             car_image.src =
               "https://i.pinimg.com/236x/05/65/6c/05656cc2d7d56640e503f07af866d7c8.jpg";
-          } else if (selectElement.value == "mercedes") {
+          } else if (selectElement.value == "gtr") {
             car_image.src =
-              "https://i.pinimg.com/236x/e8/1b/f2/e81bf231186d5603d7def9cda4c20f7a.jpg";
+              "imges/GTR-2024-.jpg";
           } else if (selectElement.value == "bmw") {
             car_image.src =
-              "https://i.pinimg.com/236x/aa/46/d1/aa46d148f18bc0079891458976165d17.jpg";
+              "imges/bmw.jpg";
           } else if (selectElement.value == "toyota") {
             car_image.src =
-              "https://i.pinimg.com/236x/0e/78/34/0e783494eb92e71d78d56de618a6d7bf.jpg";
+              "imges/toyota.jpg";
           }
         }
       </script>
@@ -83,13 +83,13 @@
       <!-- Password HTML -->
       <label for="pwd1">Password (min 6 characters):</label>
       <input type="password" id="pwd1" placeholder="Password" />
-      <span id="error1" style="color: red"></span>
+      <span id="error1" style="color: rgb(35, 11, 132)"></span>
       <br />
 
       <!-- Repeat password HTML -->
       <label for="pwd2">Repeat password:</label>
       <input type="password" id="pwd2" placeholder="Repeat Password" />
-      <span id="error2" style="color: red"></span>
+      <span id="error2" style="color: rgb(12, 11, 90)"></span>
       <br />
 
       <!-- Submit Button HTML -->
