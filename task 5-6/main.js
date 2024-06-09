@@ -14,3 +14,6 @@ function mOver(obj) {
 function mOut(obj) {
   obj.innerHTML = " can i help you ? "
 }
+
+//////////////////////////// task 2
+

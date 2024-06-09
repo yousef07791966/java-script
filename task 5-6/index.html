@@ -3,13 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Task day 3 </title>
+    <title>Task 3</title>
     <style>
       #head {
         background-color: yellow;
         border: 2px solid black;
         width: 400px;
       }
+
       #text {
         border: 2px solid black;
         width: 600px;
@@ -17,6 +18,7 @@
       }
     </style>
   </head>
+
   <body>
     <!-- Task 1  -->
     <div>
@@ -27,6 +29,8 @@
 
         myTagElement.addEventListener("mouseover", changeText);
         myTagElement.addEventListener("mouseout", returnText);
+
+        //   onmouseout = changeText();
 
         function changeText() {
           myTagElement.innerHTML = "How I can help You?";
@@ -45,10 +49,12 @@
         <option value="Jordan">Jordan</option>
         <option value="Palestine">Palestine</option>
       </select>
+
       <br />
+
       <img
         id="countryImage"
-        src="imges/jordan.jpg"
+        src="https://www.jaf.mil.jo/PhotostemplateC/637515081707252861.jpg"
         height="300px"
         width="600px"
       />
@@ -103,8 +109,7 @@
       <script>
         let sentence = document.getElementById("text");
       </script>
-      <
-
+      <!-- font family -->
       <script>
         let fontType = document.getElementById("fontSelect");
         fontType.addEventListener("click", changeFont);
@@ -118,7 +123,7 @@
         }
       </script>
 
-      
+      <!-- font size -->
       <script>
         let fontSize = document.getElementById("sizeSelect");
 
@@ -133,7 +138,7 @@
         }
       </script>
 
-      
+      <!-- italic -->
       <script>
         let choice1 = document.getElementById("italic");
         choice1.addEventListener("click", selcetChoice);
@@ -147,7 +152,7 @@
         }
       </script>
 
-     
+      <!-- Bold -->
       <script>
         let choice2 = document.getElementById("bold");
         choice2.addEventListener("click", selcetChoice2);
@@ -160,7 +165,8 @@
           }
         }
       </script>
-      
+
+      <!-- Underline -->
       <script>
         let choice3 = document.getElementById("underline");
         choice3.addEventListener("click", selcetChoice3);
