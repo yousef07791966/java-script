@@ -173,13 +173,13 @@ var arr = [13,23,12,45,22,48,66,100]
 //   Check if a string contains the letter “y”. Print “yes” if it does and “no” if it does not.
 // let x = "don’t know why"
 
-let x = "don’t know why";
+// let x = "don’t know why";
 
-if (x.includes("y")) {
-  console.log("yes");
-} else {
-  console.log("no");
-}
+// if (x.includes("y")) {
+//   console.log("yes");
+// } else {
+//   console.log("no");
+// }
 
 
 //////////////////////////////////////////////////////////////  box 4 
@@ -205,17 +205,17 @@ if (x.includes("y")) {
 //    @format//
  */
 
-function tellFortune(
-    geographic_location,
-    job_title,
-    partner_name,
-    numberOfChildren
-  ) {
-    return `You will be a ${job_title} in ${geographic_location},
-and married to ${partner_name} with ${numberOfChildren} kids.`;
-  }
+// function tellFortune(
+//     geographic_location,
+//     job_title,
+//     partner_name,
+//     numberOfChildren
+//   ) {
+//     return `You will be a ${job_title} in ${geographic_location},
+// and married to ${partner_name} with ${numberOfChildren} kids.`;
+//   }
   
-  console.log(tellFortune("Amman", "developer", "Emily", 3));
+//   console.log(tellFortune("Amman", "developer", "Emily", 3));
 
 //   ////////////////////////////////////////////////////////////////////////////////////////////////////
   
@@ -734,11 +734,11 @@ and married to ${partner_name} with ${numberOfChildren} kids.`;
   
 //   */
   
-//   function randomBetweenNumbers(min, max) {
-//     return Math.random() * (max - min) + min;
-//   }
+  function randomBetweenNumbers(min, max) {
+    return Math.random() * (max - min) + min;
+  }
   
-//   console.log(randomBetweenNumbers(3, 20));
+  console.log(randomBetweenNumbers(3, 20));
 //   ////////////////////////////////////////////////////////////////
   /*
 22
